@@ -3,6 +3,8 @@ mysql_port: 3306
 mysql_bind_address: '127.0.0.1'
 mysql_root_db_pass: ''
 mysql_data_dir: /var/lib/mysql
+mysql_conf_dir: /etc/mysql
+mysql_manage_conf: false
 mysql_state: started
 mysql_enabled: 'yes'
 mysql_community_server: false
